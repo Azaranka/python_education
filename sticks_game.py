@@ -12,10 +12,10 @@ def gamer_position(gamers):
     gamers = [gamer_a, gamer_b]
     if gamers_positions%2 == 0:
         current_position = gamers[1]
-        print(f'{gamers[1]} selects now: ')
+        print(f'{current_position} selects now: ')
     else:
         current_position = gamers[0]
-        print(f'{gamers[0]} selects now: ')
+        print(f'{current_position} selects now: ')
 
 def sticks_game(sticks_quantity):
     global gamers_positions
